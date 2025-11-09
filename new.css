@@ -5,7 +5,7 @@ body {
 
 .animation-box {
   width: 75%;
-  height: 27.5rem;
+  height: 27.5vm;
   background-color: rgb(0, 0, 0);
   margin: 0 auto;
   overflow: hidden;
@@ -13,37 +13,35 @@ body {
 }
 
 .animation-container {
-  width: 1000rem;
-  height: 30rem;
+  width: 1000vm;
+  height: 30vm;
 }
 
 .first-text {
-  font-size: 4.4rem;
+  font-size: 4.4vm;
   position: absolute;
-  left: 2.5rem;
-  top: 5rem;
+  left: 2.5vm;
+  top: 5vm;
   opacity: 0;
   animation-name: topFadeOut;
   animation-duration: 5s;
   color: white;
-  object-fit: cover;
 }
 
 .second-text {
-  font-size: 3.4rem;
+  font-size: 3.4vm;
   position: absolute;
-  top: 8.5rem;
+  top: 8.5vm;
   opacity: 0;
   animation-name: rightFadeInOut;
   animation-delay: 3s;
   animation-duration: 6s;
   color: #ccc;
-  object-fit: cover;
 }
 
 .third-text {
   transform: rotate(-90deg);
-  font-size: 2rem;
+  font-size: 2vm;
   position: absolute;
   left: 45%;
   top: 45%;
@@ -53,24 +51,22 @@ body {
   animation-duration: 6s;
   color: #a3ddf0;
   white-space: nowrap;
-  object-fit: cover;
 }
 
 .fourth-text {
-  font-size: 3.4rem;
+  font-size: 3.4vm;
   position: absolute;
-  top: 10.5rem;
+  top: 10.5vm;
   left: 10%;
   opacity: 0;
   color: #f0a3be;
   animation-name: fadeInOut;
   animation-delay: 8.5s;
   animation-duration: 9s;
-  object-fit: cover;
 }
 
 .fifth-text {
-  font-size: 5rem;
+  font-size: 5vm;
   position: absolute;
   left: 5%;
   bottom: 25%;
@@ -79,13 +75,12 @@ body {
   animation-name: bottomFadeOut;
   animation-delay: 10s;
   animation-duration: 9s;
-  object-fit: cover;
 }
 
 @keyframes topFadeOut {
   0% {
     position: absolute;
-    top: -3rem;
+    top: -3vm;
     opacity: 0;
   }
 
@@ -103,7 +98,7 @@ body {
 @keyframes bottomFadeOut {
   0% {
     position: absolute;
-    bottom: -5rem;
+    bottom: -5vm;
     opacity: 0;
   }
 
@@ -168,3 +163,4 @@ body {
     opacity: 0%;
   }
 }
+
